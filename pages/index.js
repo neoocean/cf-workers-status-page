@@ -96,7 +96,7 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
             </a>
             &{' '}
             <a href="https://flareact.com/" target="_blank">
-              Flareact{' '}
+              Flareact
             </a>
             {' '}/{' '}
             <a href="https://github.com/eidam/cf-workers-status-page" target="_blank">
