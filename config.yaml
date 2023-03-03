@@ -15,14 +15,6 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: kono-pub # unique identifier
-    name: kono.pub
-    url: 'https://kono.pub'
-    method: GET
-    expectStatus: 200
-    followRedirect: false
-    linkable: true
-
   - id: mastodon-woojinkim-org
     name: mastodon.woojinkim.org
     url: 'https://mastodon.woojinkim.org'
@@ -58,6 +50,22 @@ monitors:
   - id: blog-woojinkim.org
     name: blog.woojinkim.org
     url: 'blog.woojinkim.org'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true
+
+  - id: kono-pub
+    name: kono.pub
+    url: 'https://kono.pub'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+    linkable: true
+
+  - id: neoocean-net
+    name: neoocean.net
+    url: 'https://neoocean.net'
     method: GET
     expectStatus: 200
     followRedirect: true
