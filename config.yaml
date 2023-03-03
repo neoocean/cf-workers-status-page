@@ -33,7 +33,7 @@ monitors:
 
   - id: mail-woojinkim-org
     name: mail.woojinkim.org
-    url: 'mail.woojinkim.org'
+    url: 'https://mail.woojinkim.org'
     method: GET
     expectStatus: 200
     followRedirect: true
@@ -41,7 +41,7 @@ monitors:
 
   - id: sengi-woojinkim-org
     name: sengi.woojinkim.org
-    url: 'sengi.woojinkim.org'
+    url: 'https://sengi.woojinkim.org'
     method: GET
     expectStatus: 200
     followRedirect: true
@@ -49,7 +49,7 @@ monitors:
 
   - id: blog-woojinkim.org
     name: blog.woojinkim.org
-    url: 'blog.woojinkim.org'
+    url: 'https://blog.woojinkim.org'
     method: GET
     expectStatus: 200
     followRedirect: true
