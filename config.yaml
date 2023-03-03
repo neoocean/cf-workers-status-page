@@ -15,20 +15,20 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: mastodon-woojinkim-org
-    name: mastodon.woojinkim.org
-    url: 'https://mastodon.woojinkim.org'
-    method: GET
-    expectStatus: 200
-    followRedirect: false
-    linkable: true
-
   - id: woojinkim-org
     name: woojinkim.org
     url: 'https://woojinkim.org'
     method: GET
     expectStatus: 200
     followRedirect: true
+    linkable: true
+
+  - id: mastodon-woojinkim-org
+    name: mastodon.woojinkim.org
+    url: 'https://mastodon.woojinkim.org'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
     linkable: true
 
   - id: mail-woojinkim-org
