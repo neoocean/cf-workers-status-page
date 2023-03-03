@@ -33,7 +33,7 @@ monitors:
 
   - id: mail-woojinkim-org
     name: mail.woojinkim.org
-    url: 'https://mail.woojinkim.org'
+    url: 'http://mail.woojinkim.org/'
     method: GET
     expectStatus: 200
     followRedirect: true
