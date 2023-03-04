@@ -1,8 +1,8 @@
 settings:
-  title: 'Status Page'
+  title: 'woojinkim.org Status Page'
   url: 'https://status.woojinkim.org' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 90 # number of days you want to display in histogram
+  daysInHistogram: 30 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: 'All Systems Operational'
@@ -28,7 +28,7 @@ monitors:
     url: 'https://mastodon.woojinkim.org'
     method: GET
     expectStatus: 200
-    followRedirect: false
+    followRedirect: true
     linkable: true
 
   - id: mail-woojinkim-org
@@ -50,22 +50,6 @@ monitors:
   - id: blog-woojinkim.org
     name: blog.woojinkim.org
     url: 'https://blog.woojinkim.org'
-    method: GET
-    expectStatus: 200
-    followRedirect: true
-    linkable: true
-
-  - id: kono-pub
-    name: kono.pub
-    url: 'https://kono.pub'
-    method: GET
-    expectStatus: 200
-    followRedirect: false
-    linkable: true
-
-  - id: neoocean-net
-    name: neoocean.net
-    url: 'https://neoocean.net'
     method: GET
     expectStatus: 200
     followRedirect: true
