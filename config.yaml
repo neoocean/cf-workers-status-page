@@ -23,6 +23,14 @@ monitors:
     followRedirect: true
     linkable: true
 
+  - id: docs-woojinkim-org
+    name: docs.woojinkim.org
+    url: 'https://docs.woojinkim.org'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true
+
   - id: mastodon-woojinkim-org
     name: mastodon.woojinkim.org
     url: 'https://mastodon.woojinkim.org'
