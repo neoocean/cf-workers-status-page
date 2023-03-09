@@ -67,6 +67,6 @@ monitors:
     name: playground.woojinkim.org
     url: 'https://playground.woojinkim.org'
     method: GET
-    expectStatus: 200
+    expectStatus: 403
     followRedirect: true
     linkable: true
