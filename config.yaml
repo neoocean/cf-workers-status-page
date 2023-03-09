@@ -55,9 +55,17 @@ monitors:
     followRedirect: true
     linkable: true
 
-  - id: blog-woojinkim.org
+  - id: blog-woojinkim-org
     name: blog.woojinkim.org
     url: 'https://blog.woojinkim.org'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true
+
+  - id: playground-woojinkim-org
+    name: playground.woojinkim.org
+    url: 'https://playground.woojinkim.org'
     method: GET
     expectStatus: 200
     followRedirect: true
