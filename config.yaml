@@ -70,3 +70,12 @@ monitors:
     expectStatus: 200
     followRedirect: true
     linkable: true
+    
+  - id: status-woojinkim-org
+    name: status.woojinkim.org
+    url: 'https://status.woojinkim.org'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true 
+ 
