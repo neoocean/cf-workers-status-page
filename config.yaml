@@ -59,15 +59,70 @@ monitors:
     name: playground.woojinkim.org
     url: 'https://playground.woojinkim.org'
     method: GET
-    expectStatus: 200
+    expectStatus: 403
     followRedirect: true
     linkable: true
-    
+
   - id: status-woojinkim-org
     name: status.woojinkim.org
     url: 'https://status.woojinkim.org'
     method: GET
     expectStatus: 200
     followRedirect: true
-    linkable: true 
- 
+    linkable: true
+
+  - id: cf-status-woojinkim-org
+    name: cf-status.woojinkim.org
+    url: 'https://cf-status.woojinkim.org'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true
+
+  - id: neoocean-net
+    name: neoocean.net
+    url: 'https://neoocean.net'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true
+
+  - id: status-neoocean-net
+    name: status.neoocean.net
+    url: 'https://status.neoocean.net'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true
+
+  - id: kono-pub
+    name: kono.pub
+    url: 'https://kono.pub'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true
+
+  - id: docs-kono-pub
+    name: docs.kono.pub
+    url: 'https://docs.kono.pub'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true
+
+  - id: todo-kono-pub
+    name: todo.kono.pub
+    url: 'https://todo.kono.pub'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true
+
+  - id: status-kono-pub
+    name: status.kono.pub
+    url: 'https://status.kono.pub'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true
