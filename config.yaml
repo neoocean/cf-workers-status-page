@@ -47,14 +47,6 @@ monitors:
     followRedirect: true
     linkable: true
 
-  - id: sengi-woojinkim-org
-    name: sengi.woojinkim.org
-    url: 'https://sengi.woojinkim.org'
-    method: GET
-    expectStatus: 200
-    followRedirect: true
-    linkable: true
-
   - id: blog-woojinkim-org
     name: blog.woojinkim.org
     url: 'https://blog.woojinkim.org'
